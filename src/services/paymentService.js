@@ -1,5 +1,5 @@
-import Payment from "../models/Payment";
-import Product from "../models/Product";
+import Payment from "../models/Payment.js";
+import Product from "../models/Product.js";
 
 export async function makePayment(req, res) {
   const { userId, productId } = req.body;
